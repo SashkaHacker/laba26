@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from abc import ABC, abstractmethod
+from abc import ABC
 
 
 class Animal(ABC):
@@ -30,7 +30,7 @@ class Lion(Animal):
         print("I can roar")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Driver code
     R = Human()
     R.move()
