@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# Вариант - 10
+# Создать абстрактный базовый класс Triad с виртуальными методами увеличения на 1.
+# Создать производные классы Date (дата) и Time (время)
+
 
 from abc import ABC, abstractmethod
 
